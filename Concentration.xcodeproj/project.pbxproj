@@ -14,6 +14,7 @@
 		E5AFA71320B76DD1009CD097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AFA71120B76DD1009CD097 /* LaunchScreen.storyboard */; };
 		E5E1ACA120BA0B9300E0C91E /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1ACA020BA0B9300E0C91E /* Concentration.swift */; };
 		E5E1ACA320BA0C4A00E0C91E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1ACA220BA0C4A00E0C91E /* Card.swift */; };
+		E5E1ACA520BCFE4500E0C91E /* cardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1ACA420BCFE4500E0C91E /* cardButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E5AFA71420B76DD1009CD097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5E1ACA020BA0B9300E0C91E /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		E5E1ACA220BA0C4A00E0C91E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E5E1ACA420BCFE4500E0C91E /* cardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 			children = (
 				E5AFA70820B76DD0009CD097 /* AppDelegate.swift */,
 				E5AFA70A20B76DD0009CD097 /* ViewController.swift */,
-				E5AFA70C20B76DD0009CD097 /* Main.storyboard */,
 				E5E1ACA020BA0B9300E0C91E /* Concentration.swift */,
+				E5E1ACA420BCFE4500E0C91E /* cardButton.swift */,
 				E5E1ACA220BA0C4A00E0C91E /* Card.swift */,
+				E5AFA70C20B76DD0009CD097 /* Main.storyboard */,
 				E5AFA70F20B76DD1009CD097 /* Assets.xcassets */,
 				E5AFA71120B76DD1009CD097 /* LaunchScreen.storyboard */,
 				E5AFA71420B76DD1009CD097 /* Info.plist */,
@@ -145,6 +148,7 @@
 				E5AFA70920B76DD0009CD097 /* AppDelegate.swift in Sources */,
 				E5E1ACA120BA0B9300E0C91E /* Concentration.swift in Sources */,
 				E5E1ACA320BA0C4A00E0C91E /* Card.swift in Sources */,
+				E5E1ACA520BCFE4500E0C91E /* cardButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
