@@ -22,10 +22,6 @@ class ViewController: UIViewController {
     
     @IBOutlet var cardButtons: [UIButton]!
     
-    var emojiChoices = ["🤓", "😘", "😡", "🧐", "😭", "😬", "🤢", "😱", "😷", "😴"]
-    
-    var emoji = [Int:String]()
-    
     @IBAction func touchCard(_ sender: UIButton) {
         flipCount += 1
         if let cardNumber = cardButtons.index(of: sender) {
@@ -48,12 +44,12 @@ class ViewController: UIViewController {
         }
     }
     
+    var emojiChoices = ["🤓", "😘", "😡", "🧐", "😭", "😬", "🤢", "😱", "😷", "😴"]
+    
+    var emoji = [Int:String]()
+    
     func emoji(for card: Card) -> String {
-        if emoji[card.identifier] != nil {
-            return emoji[card.identifier]!
-        } else {
-        return "?"
-        }
+        return emoji[card.identifier] ?? "?"
     }
 }
 
