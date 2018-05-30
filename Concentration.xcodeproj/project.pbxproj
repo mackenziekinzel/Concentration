@@ -60,17 +60,41 @@
 		E5AFA70720B76DD0009CD097 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				E5AFA70820B76DD0009CD097 /* AppDelegate.swift */,
-				E5AFA70A20B76DD0009CD097 /* ViewController.swift */,
-				E5E1ACA020BA0B9300E0C91E /* Concentration.swift */,
-				E5E1ACA420BCFE4500E0C91E /* cardButton.swift */,
-				E5E1ACA220BA0C4A00E0C91E /* Card.swift */,
+				E5E1ACA620BCFF5A00E0C91E /* Model */,
+				E5E1ACA720BCFF6400E0C91E /* View */,
+				E5E1ACA820BCFF6900E0C91E /* Controller */,
 				E5AFA70C20B76DD0009CD097 /* Main.storyboard */,
+				E5AFA70820B76DD0009CD097 /* AppDelegate.swift */,
 				E5AFA70F20B76DD1009CD097 /* Assets.xcassets */,
 				E5AFA71120B76DD1009CD097 /* LaunchScreen.storyboard */,
 				E5AFA71420B76DD1009CD097 /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		E5E1ACA620BCFF5A00E0C91E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5E1ACA020BA0B9300E0C91E /* Concentration.swift */,
+				E5E1ACA220BA0C4A00E0C91E /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5E1ACA720BCFF6400E0C91E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5E1ACA420BCFE4500E0C91E /* cardButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5E1ACA820BCFF6900E0C91E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFA70A20B76DD0009CD097 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
