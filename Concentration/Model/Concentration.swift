@@ -34,6 +34,12 @@ class Concentration {
             }
         }
     }
+    
+//    func resetCard(index: Int) {
+//        cards[index].isFaceUp = false
+//        cards[index].isMatched = false
+//        cards[index].identifier = 0
+//    }
   
     init(numberOfPairs: Int) {
         for _ in 1...numberOfPairs {
