@@ -35,11 +35,13 @@ class Concentration {
         }
     }
     
-//    func resetCard(index: Int) {
-//        cards[index].isFaceUp = false
-//        cards[index].isMatched = false
-//        cards[index].identifier = 0
-//    }
+    func resetAllCardsForNewGame() {
+        for index in cards.indices {
+        cards[index].isFaceUp = false
+        cards[index].isMatched = false
+        }
+        indexOfOneFaceUpCard = nil
+    }
   
     init(numberOfPairs: Int) {
         for _ in 1...numberOfPairs {

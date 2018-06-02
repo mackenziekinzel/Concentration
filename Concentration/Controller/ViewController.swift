@@ -57,20 +57,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func newGame(_ sender: UIButton) {
-        flipCount = 0
+        game.resetAllCardsForNewGame()
         for index in cardButtons.indices {
             let button = cardButtons[index]
-            var card = game.cards[index]
             button.setTitle("", for: UIControlState.normal)
             button.backgroundColor = #colorLiteral(red: 0.462745098, green: 0.8392156863, blue: 1, alpha: 1)
-            card.isFaceUp = false
-            card.isMatched = false
         }
+        flipCount = 0
         emoji = [Int:String]()
         emojiChoices = ["🤓", "😘", "😡", "🧐", "😭", "😬", "🤢", "😱", "😷", "😴"]
-        game.indexOfOneFaceUpCard = nil
     }
-    
 }
 
 
