@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var flipCountLabel: UILabel!
     
+    @IBOutlet weak var gameFinishedLabel: UILabel!
+    
     @IBOutlet var cardButtons: [UIButton]!
     
     @IBAction func touchCard(_ sender: UIButton) {
@@ -34,6 +36,7 @@ class ViewController: UIViewController {
         for index in cardButtons.indices {
             let button = cardButtons[index]
             let card = game.cards[index]
+            
             if card.isFaceUp {
                 button.setTitle(emoji(for: card), for: UIControlState.normal)
                 button.backgroundColor = #colorLiteral(red: 0.9007340456, green: 0.9237144113, blue: 1, alpha: 1)
@@ -66,6 +69,7 @@ class ViewController: UIViewController {
         flipCount = 0
         emoji = [Int:String]()
         emojiChoices = ["🤓", "😘", "😡", "🧐", "😭", "😬", "🤢", "😱", "😷", "😴"]
+        gameFinishedLabel.isHidden = true
     }
 }
 
